@@ -1,0 +1,20 @@
+|``\            |``\         /\  |``\`|`  |``         |``\|  ||``\
+|   ||/`\/`\|``\|--</`\\/   /__\ |__/ |   |--/`\|/`\  |__/|--||__/
+|__/ |   \_/|__/|__/\_//\  /    \|   _|_  |  \_/|     |   |  ||
+            |
+for gereral PHP virtual host.
+
+How to use?
+ 1 - Edit config.php and fill your CONSUMER_KEY & CONSUMER_SECRET
+   (get one from https://www.dropbox.com/developers/apps)
+ 2 - Upload all files and test example_index.php
+ 3 - Discover the features yourself!
+
+***Useful Tip***
+ 1 - after including config.php , use getDropbox() to get DropboxAPI Object.
+ 2 - DropboxAPI Object : http_oauthed($url, $postfields = array(),  $method = 'GET',$headers = array())
+
+http://laobubu.net
+laobubu@gmail.com
+
+laobubu (C) 2012
